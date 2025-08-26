@@ -33,8 +33,8 @@ def visualize_flow_evolution(flow_model, x0, n_steps=8, xlim=(-3,3), ylim=(-3,3)
             ax.scatter(x[:, 0].detach(), x[:, 1].detach(), s=10, alpha=0.6)
             ax.set_title(f"Step {idx}")
         
-        ax.set_xlim(*xlim)
-        ax.set_ylim(*ylim)
+        # ax.set_xlim(*xlim)
+        # ax.set_ylim(*ylim)
     
     for idx in range(total_plots, n_rows * n_cols):
         row = idx // max_cols
