@@ -15,7 +15,7 @@ def sample_swiss_roll(n_samples=256, noise=0.5, scale=5):
 
 
 def manual_sample(filename, n_samples=256, noise=0.5, scale=5, white_background=True):
-    path = join('dataset/images', filename)
+    path = join('datasets/images', filename)
     img = Image.open(path).convert("L")   # Convert to grayscale
     arr = np.array(img)
     mask = arr < 127 if white_background else arr > 127 # Convert to BW
