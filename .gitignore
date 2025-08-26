@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.env/
+
+# Data / models
+data/
+datasets/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac / OS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
