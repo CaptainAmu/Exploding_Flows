@@ -7,7 +7,7 @@ venv/
 
 # Data / models
 data/
-datasets/
+dataset/
 checkpoints/
 *.ckpt
 *.pt
